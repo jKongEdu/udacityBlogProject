@@ -1,0 +1,36 @@
+@import url(globalStyle.css);
+
+.blogWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding: 0.5em;
+  align-content: space-around;
+  background-color: #72cbd7;
+}
+
+.btnContainer {
+  display: inline-block;
+  width: 100%;
+}
+
+.godzilla {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.share {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  padding: 0 0 20px 0;
+}
+
+.imageContainer {
+  display: inline-block;
+  width: auto;
+  height: 200px;
+  background-repeat: no-repeat;
+}

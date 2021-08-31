@@ -1,0 +1,31 @@
+@import url(globalStyle.css);
+@import url(mediaQueries.css);
+
+/* blog home page styles */
+.wrapper {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.blogWrapper {
+  background-color: #3a807d;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.featureWrapper {
+  background-color: #41a08b;
+}
+
+.blogCard {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
